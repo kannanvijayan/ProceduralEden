@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+      "lib": [
+          "es6",
+          "dom"
+      ],
+      "noImplicitAny": true,
+      "allowJs": true,
+      "jsx": "react",
+      "target": "es6",
+      "strict": true,
+      "module": "es6",
+      "moduleResolution": "node",
+      "outDir": "../../../dist/public/js",
+      "sourceMap": true
+  },
+  "include": [
+    "wgsl.d.ts",
+    "./**/*.ts",
+    "./**/*.tsx",
+    "../../common/**/*.ts",
+    "../../../node_modules/@webgpu/types/**/*"
+  ],
+  "exclude": [
+  ]
+}
